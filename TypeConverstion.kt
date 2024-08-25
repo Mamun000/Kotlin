@@ -1,6 +1,6 @@
 fun main() {
     val a: String = "hello"
-    val b: String = a as String // Safe casting
+    val b: String = a as String // UnSafe casting
     println(b)
 
     // Unsafe cast (commented out because it will cause a crash)
