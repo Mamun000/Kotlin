@@ -17,7 +17,7 @@ class Squares(side:Double):Rectangle(side,side){
 }
 
 fun main(){
-    val myRectangle=Rectangle(4.0,5.0)
+    val myRectangle=Rectangles(4.0,5.0)
     myRectangle.display()
     val mySquare=Squares(3.0)
     mySquare.display()
