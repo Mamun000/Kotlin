@@ -10,7 +10,7 @@ open class Rectangles(val a:Double,val b:Double):Shape{
     }
 }
 
-class Squares(side:Double):Rectangle(side,side){
+class Squares(side:Double):Rectangles(side,side){
     override fun display() {
         println("Area of square with side $a is ${area()}")
     }
